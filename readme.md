@@ -38,8 +38,6 @@ Command line options
 
 The script works without any parameters.
 
--   m  - if you want to (re-)send the current pragpub magazine
-
-
+If you want to (re-)send the current pragpub magazine use **-m** as a paramter.
 
 [1]: <http://pragprog.com/magazines>

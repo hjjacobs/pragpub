@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 
 #
+# HJ Jacobs
+# This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.
+#
 # Script for downloading the current PragPub (http://pragprog.com/magazines) in mobi format
 # and mailing the file to my kindle.
 #
@@ -27,7 +30,6 @@ function mail-mobi {
 }
 
 echo "Checking if ${DOWNLOAD_PATH}/${PB_MAGAZINE} is present"  1>&2
-
 
 if [[ ! -f "${DOWNLOAD_PATH}/${PB_MAGAZINE}" ]]; then
 	echo "Downloading ${PB_MAGAZINE}"  1>&2
